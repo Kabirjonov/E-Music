@@ -1,4 +1,4 @@
-import type { IArtist, ITrack } from "./music,types";
+import type { IArtist, ITrack } from "./music.types";
 import type { IPlayList } from "./playlist.types";
 
 function spotifyApi(endpoint: "track", id: string): Promise<ITrack>;

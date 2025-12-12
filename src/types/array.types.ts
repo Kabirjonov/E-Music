@@ -1,4 +1,4 @@
-import type { ITrack } from "./music,types";
+import type { ITrack } from "./music.types";
 
 export const recentlyPlayed: ITrack[] = [];
 export const topTracks: ReadonlyArray<ITrack[]> = [];

@@ -1,7 +1,7 @@
-import type { ITrack } from "./music,types";
+import type { ITrack } from "./music.types";
 
 export interface IPlayerState {
-	currentTrackId: ITrack | null;
+	currentTrack: ITrack | null;
 	queue: ITrack[];
 	history: ITrack[];
 	isPlaying: boolean;

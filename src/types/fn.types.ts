@@ -1,4 +1,4 @@
-import type { ITrack } from "./music,types";
+import type { ITrack } from "./music.types";
 
 export type TPlayFunction = (trackId: string) => void;
 export type TVolumeFunction = (level: number) => void;
